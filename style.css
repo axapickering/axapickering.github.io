@@ -13,3 +13,8 @@ header {
 a {
   color: hotpink;
 }
+#headshot {
+  border-radius: 50%;
+  max-width: 20%;
+  height: auto;
+}
