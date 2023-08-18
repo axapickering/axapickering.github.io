@@ -1,6 +1,10 @@
 html {
-  background-color: bisque;
+  background-color : #262629;
+  color: white;
 }
 header {
-  background-color:azure;
+  background-color : #303133;
+}
+a {
+  color: hotpink;
 }
