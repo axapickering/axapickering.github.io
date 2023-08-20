@@ -9,7 +9,16 @@ header {
   background-color : #303133;
 }
 a {
+  border-color: black;
   color: hotpink;
+  font-size: 28px;
+}
+a:hover {
+  color: #39ff14;
+  background-color: black;
+}
+nav > a {
+    padding: 10px;
 }
 #headshot {
   border-radius: 50%;
