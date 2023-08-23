@@ -1,5 +1,8 @@
 body {
   font-family: 'Raleway', sans-serif;
+  width: 99%;
+  margin: 0 auto;
+
 }
 html {
   background-color : #262629;
@@ -8,8 +11,7 @@ html {
 }
 header {
   background-color : #303133;
-  padding-top : 5px;
-  padding-bottom: 5px;
+  height: 40px;
 }
 th,td {
   background-color: #303133;
@@ -23,20 +25,29 @@ table {
 #projects-header {
   display:table;
   margin: auto;
+  margin-top: 50px;
 }
 a {
   border-color: black;
   color: hotpink;
   font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 div > a {
   font-size: medium;
 }
 #contact-info {
-  text-align: center;
+  position: relative;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  margin: auto;
   background-color: #303133;
-  clear:both;
+
 }
 .active-tab {
   background : black;
@@ -45,17 +56,33 @@ a:hover {
   color: #39ff14;
   background-color: black;
 }
+#homepage-top-div {
+
+}
 nav > a {
     padding: 10px;
 }
 #headshot {
+  position: relative;
+  margin-top: 5%;
+  left: 5%;
   border-radius: 50%;
-  max-width: 20%;
+  max-width: 25%;
   height: auto;
-  float: left;
 }
 #landing-text {
-  font-size: large;
-  margin-left: 30px;
-  padding-left: 40px;
+  display:table;
+  margin: auto;
+  position: relative;
+  top: 10%;
+
+}
+#project-page-text,#about-text {
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  margin:auto;
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
 }
