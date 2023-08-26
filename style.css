@@ -39,15 +39,14 @@ div > a {
   font-size: medium;
 }
 #contact-info {
+  background-color: #303133;
+  width: 200px;
   position: relative;
-  margin-left: 10%;
+  margin: auto;
+  bottom: 70px;
   display: flex;
   flex-direction: column;
-  width: 200px;
   align-items: center;
-  margin: auto;
-  background-color: #303133;
-
 }
 .active-tab {
   background : black;
@@ -57,7 +56,13 @@ a:hover {
   background-color: black;
 }
 #homepage-top-div {
-
+  background-color: aqua;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  height: 300px;
+  margin:auto;
 }
 nav > a {
     padding: 10px;
@@ -77,12 +82,57 @@ nav > a {
   top: 10%;
 
 }
-#project-page-text,#about-text {
+#project-page-text {
   display: table;
   vertical-align: middle;
   text-align: center;
   margin:auto;
   margin-top: 50px;
   height: 400px;
-  width: 400px;
+  width: 70%;
+}
+#about-text{
+  display:grid;
+
+}
+li {
+  margin-bottom: 20px;
+  font-size: large;
+}
+#test {
+  display:inline;
+  background-color: red;
+}
+#a {
+  background-color: red;
+  height: fit-content;
+  width: fit-content;
+}
+#b {
+  background-color: blue;
+  width: 200px;
+}
+#c {
+  background-color: black;
+  align-self: center;
+}
+.about-grid {
+    margin:auto;
+    width: 70%;
+    height: 600px;
+    display: grid;
+    grid-template-rows: repeat(4, 2fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 8px;
+}
+.about-grid-text {
+  margin:auto;
+  font-size: 20pt;
+  text-align: center;
+}
+.about-grid-img {
+  border-radius: 15%;
+  margin:auto;
+  height:200px;
+  width: auto;
 }
