@@ -88,7 +88,7 @@ li {
 #homepage-top-div {
   background-color: #303133;
     width: 85%;
-    height: 200px;
+    height: 270px;
     margin: auto;
     display: grid;
     grid-template-rows: 1fr;
@@ -115,10 +115,14 @@ li {
 #contact-info {
   background-color: #303133;
   width: 200px;
+  height: auto;
   margin: auto;
   margin-top: 40px;
   margin-right:10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#resume-download {
+  text-align: center;
 }
