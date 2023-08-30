@@ -68,11 +68,11 @@ li {
 .about-grid {
     margin:auto;
     width: 70%;
-    height: 600px;
+    height: 100%;
     display: grid;
     grid-template-rows: repeat(4, 2fr);
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px 8px;
+    gap: 20px 50px;
 }
 .about-grid-text {
   margin:auto;
